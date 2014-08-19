@@ -2,13 +2,14 @@ source "http://rubygems.org"
 gem 'sinatra'
 gem 'slim'
 gem 'sass'
-gem "google-api-client", "~> 0.7.0.rc2"
-gem 'ri_cal', :git => 'https://github.com/espen/ri_cal.git'
 gem 'activesupport'
-gem 'tzinfo'
-gem 'tzinfo-data'
+gem "google-api-client"
+gem "retriable"
+gem "json"
 gem "rubysl", "~> 2.0", :platforms => 'rbx'
 gem 'puma'
+gem 'ri_cal'
+gem 'tzinfo'
 
 group :development, :test do
   gem 'minitest', '~>5'
